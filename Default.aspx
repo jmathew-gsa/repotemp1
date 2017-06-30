@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="Home Page" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.vb" Inherits="WebApplication12._Default" %>
 
 <asp:Content runat="server" ID="FeaturedContent" ContentPlaceHolderID="FeaturedContent">
+    <div><asp:Label id="lblJMathew" runat="server" Text="Test to see if we can edit and merge an aspx file" /></div>
     <section class="featured">
         <div class="content-wrapper">
             <hgroup class="title">
